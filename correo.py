@@ -46,7 +46,7 @@ def correo():
     sesion_smtp.starttls()
 
 # Iniciamos sesión en el servidor
-    sesion_smtp.login('pruebasviro@gmail.com', 'lmyr1399')
+    sesion_smtp.login('pruebasviro@gmail.com', '####')
 
 # Convertimos el objeto mensaje a texto
     texto = mensaje.as_string()
